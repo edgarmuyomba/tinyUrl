@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', 'Courier New', Courier, monospace;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.fail {
+    padding: 4px 16px;
+    height: 30px;
+    background-color: lightsalmon;
+    color: rgb(71, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    width: 300px;
+}
+
+.search > .icon {
+    border: 2px solid black;
+    border-radius: 50px 0 0 50px;
+    height: 40px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 400px;
+    height: 40px;
+    border-radius: 0 50px 50px 0;
+    border: 1px solid lightgray;
+    padding: 4px 16px;
+    border-left: none;
+}
+
+.result {
+    margin: 16px;
+}
