@@ -6,7 +6,8 @@ inp.oninput = () => {
 }
 
 const urlForm = document.querySelector('#urlForm');
-const endPoint = 'http://localhost:8000';
+// const endPoint = 'http://localhost:8000';
+const endPoint = 'https://tinyy.up.railway.app'
 
 urlForm.addEventListener('submit', handleSubmit);
 
